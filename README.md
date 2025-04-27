@@ -55,14 +55,14 @@ The layout uses CSS Grid at two levels:
 
 2. **Main Content Grid**: The main content area uses a nested grid to arrange the columns:
 
-```css
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, auto);
-    gap: 10px;
-}
-```
+    ```css
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        gap: 10px;
+    }
+    ```
 
 ### Styling Features
 
