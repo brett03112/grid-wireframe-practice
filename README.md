@@ -44,13 +44,14 @@ The layout uses CSS Grid at two levels:
 
 1. **Body-level Grid**: The overall page layout is controlled by a grid applied to the body element:
 
-```css
-body {
-    display: grid;
-    grid-template-rows: auto auto auto auto auto;
-    gap: 2px;
-}
-```
+    ```css
+    body {
+        display: grid;
+        grid-template-rows: auto auto auto auto auto;
+        gap: 2px;
+    }
+
+    ```
 
 2. **Main Content Grid**: The main content area uses a nested grid to arrange the columns:
 
