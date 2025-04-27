@@ -77,14 +77,6 @@ The layout uses CSS Grid at two levels:
 - **Responsive Design**: The layout is designed for mobile devices with a max-width of 400px
 - **Content Centering**: Flexbox is used within each grid cell to center content both horizontally and vertically
 
-## Advantages of Using CSS Grid
-
-- **Simplified Layout Control**: CSS Grid makes it easy to create complex layouts with minimal HTML
-- **Two-Dimensional Layout**: Unlike Flexbox, Grid allows for precise control in both rows and columns
-- **Gap Property**: The gap property provides clean spacing between grid items without margin complications
-- **Nested Grids**: The ability to nest grids (as in the main content area) allows for complex layouts
-- **Auto-sizing**: The auto-sizing feature allows content to determine row heights naturally
-
 ## Mobile-First Approach
 
 This project follows a mobile-first approach, focusing on creating an optimal experience for mobile devices before considering larger screens. The wireframe is specifically designed for mobile viewing with appropriate spacing and sizing.
