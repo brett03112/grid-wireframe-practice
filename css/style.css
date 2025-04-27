@@ -9,57 +9,69 @@ body {
     color: white;
     text-align: center;
     font-weight: bold;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 2px;
 }
 
 /* Layout elements */
 header,
 aside,
-main,
-footer,
-.column {
+footer {
     padding: 10px;
-    margin: 5px;
+    margin: 2px;
     border-radius: 5px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Header */
 header {
     background-color: #c93b8e;
-    padding: 15px;
-    margin: 8px 0;
-    font-size: 30px;
+    padding: 20px;
+    margin: 10px 0;
+    font-size: 36px;
+    min-height: 60px;
 }
 
 /* Aside sections */
 aside {
     background-color: #2980b9;
-    padding: 15px;
-    margin: 12px 0;
-    font-size: 25px;
+    padding: 20px;
+    margin: 2px 0;
+    font-size: 32px;
+    min-height: 50px;
 }
 
 /* Main content area */
 main {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
     background-color: #2ecc71;
     padding: 15px;
-    margin: 8px 0;
-    font-size: 18px;
-    flex-direction: column;
-    gap: 10px;
+    margin: 10px 0;
 }
 
 /* Columns */
 .column {
     background-color: #e91e63;
-    padding: 15px;
-    margin: 5px 0;
+    padding: 20px;
+    font-size: 28px;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 }
 
 /* Footer */
 footer {
     background-color: #e67e22;
-    padding: 15px;
-    margin: 8px 0;
-    font-size: 30px;
+    padding: 20px;
+    margin: 10px 0;
+    font-size: 36px;
+    min-height: 60px;
 }
