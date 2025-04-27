@@ -9,7 +9,6 @@ This project demonstrates the implementation of a mobile wireframe layout using 
 - **HTML5**: For the structural markup of the page
 - **CSS3**: For styling the layout
 - **CSS Grid**: For creating the responsive grid-based layout
-- **CSS Flexbox**: For centering content within grid cells
 
 ## Project Structure
 
