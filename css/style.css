@@ -1,0 +1,65 @@
+@import url("./reset.css");
+
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Layout elements */
+header,
+aside,
+main,
+footer,
+.column {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Header */
+header {
+    background-color: #c93b8e;
+    padding: 15px;
+    margin: 8px 0;
+    font-size: 30px;
+}
+
+/* Aside sections */
+aside {
+    background-color: #2980b9;
+    padding: 15px;
+    margin: 12px 0;
+    font-size: 25px;
+}
+
+/* Main content area */
+main {
+    display: flex;
+    background-color: #2ecc71;
+    padding: 15px;
+    margin: 8px 0;
+    font-size: 18px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Columns */
+.column {
+    background-color: #e91e63;
+    padding: 15px;
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #e67e22;
+    padding: 15px;
+    margin: 8px 0;
+    font-size: 30px;
+}
